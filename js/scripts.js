@@ -13,9 +13,15 @@ var favLists = [];
     var placeInput = $("input#place").val();
 
     favLists.push(personInput, thingInput, placeInput);
+    var personFinal = favLists[0];
+    var thingFinal = favLists[1];
+    var placeFinal = favLists[2];
+
     $("#results").show();
-    $("#placeFinal").text(favLists);
-    console.log(favLists);
+    $("#personFinal").text(personFinal);
+    $("#thingFinal").text(thingFinal);
+    $("#placeFinal").text(placeFinal);
+
     event.preventDefault();
   });
 
