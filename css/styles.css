@@ -3,4 +3,9 @@
   background-color: black;
   border: solid 5px silver;
   cursor: pointer;
+  margin: 10px;
+}
+
+#results {
+  display: none;
 }
